@@ -9,5 +9,3 @@ RECIPIENT_EMAIL_ADDRESS = ""
 # Connection check interval in seconds
 CONN_CHECK_INTERVAL = 60
 
-# Time to wait in seconds after connection attempt before asserting connection
-CONN_WAIT_TIME = 30
