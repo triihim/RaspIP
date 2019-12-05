@@ -1,4 +1,5 @@
 from time import sleep
+from utils import get_ssid, get_ip, is_connected
 
 def reconnect():
 	connectCmd = "wpa_cli -i wlan0 reconfigure"
