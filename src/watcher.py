@@ -22,4 +22,4 @@ while True:
 	if not connected:
 		print("Watcher triggering reconnect")
 		os.system("python3 reconnect.py")
-	sleep(CONN_CHECK_INTERVAL)
+	sleep(interval)
