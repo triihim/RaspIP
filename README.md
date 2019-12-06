@@ -1,6 +1,9 @@
 # RaspIP
-- Send an email with SSID and local IP address from Raspberry 4 upon boot and possible reconnects.
-- Configurable WiFi priorities
+This is a small school / hobby project aiming to ease the use of Raspberry Pi by removing the need for a display and a keyboard for IP lookup needed for SSH connection.
+
+## Features
+- Send an email with SSID and local IP address from Raspberry 4 upon boot and possible reconnects
+- Configure multiple WiFis with different priorities
 
 ## Setup
 1. Download this repository into Raspberry 4
