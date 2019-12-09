@@ -26,7 +26,13 @@ This is a small school / hobby project aiming to ease the use of Raspberry Pi by
         key_mgmt: "WPA-PSK"
     }
 
-5. Configure /etc/rc.local to start RaspIP at boot
+5. Configure /etc/interfaces/network by adding:
+    ```yaml
+    auto wlan0
+    iface wlan0 inet manual
+    wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+
+6. Configure /etc/rc.local to start RaspIP at boot
     - Add following before *exit 0*
     
     ```yaml
